@@ -1,0 +1,82 @@
+:root{
+    --orange: hsl(26, 100%, 55%);
+    --pale-orange: hsl(25, 100%, 94%);
+    --very-vark-blue: hsl(220, 13%, 13%);
+    --Dark-grayish-blue: hsl(219, 9%, 45%);
+    --Grayish-blue: hsl(220, 14%, 75%);
+    --Light-grayish-blue: hsl(223, 64%, 98%);
+    --White: hsl(0, 0%, 100%);
+    --font-family: 'kumbh sans';
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--font-family);
+}
+
+
+                /*  HEADER  */
+      
+ul{
+    display: flex;   
+}              
+
+nav{
+    padding-top: 30px;
+
+}
+
+li{
+    text-decoration: none;
+    flex-grow: 0.08;
+}
+
+.right-navbar{
+    position: relative;
+    left: 25%;
+}
+
+.nav-links{
+    position: relative;
+    left: 4%;
+
+}
+
+.nav-links a{
+    color: var(--Grayish-blue)
+}
+
+.nav-links a:hover{
+    padding-bottom: 40px;
+    border-bottom: 3px solid hsl(26, 100%, 55%);
+}
+
+
+
+#cart-icon{
+    background-image: url(../images/icon-cart.svg);
+    background-repeat: no-repeat;
+    text-indent: -99999999px;
+    width: 10px;
+     position: relative;
+    top: 8px;
+}
+
+#profile-img{
+    background-image: url(../images/avatar.png);
+    width: 40px;
+    height: 40px;
+    text-indent: -9999999px;
+    position: relative;
+    bottom: 2px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo{
+     background: url(../images/logo.svg) no-repeat;
+     width:200px;
+     text-indent: -99999999999999999px;
+}
+
